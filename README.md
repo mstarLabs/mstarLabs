@@ -34,7 +34,6 @@ My journey in computer science has led me to develop a passion for cybersecurity
     <img src="https://img.shields.io/badge/-pfSense-22314E?&style=for-the-badge&logo=pfSense&logoColor=white" />
 </div>
 
-<img src="https://img.shields.io/badge/-draw.io-F08705?&style=for-the-badge&logo=diagrams.net&logoColor=white" />
 
 ---
 
