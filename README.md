@@ -16,7 +16,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Draw.io (Diagrams) and Network Layout         | <a href="https://github.com/mstarLabs/VM-Network-Architecture">VM Network Architecture</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://github.com/mstarLabs/pfSense">pfSense</a>|
 | Security Automation with Shuffle SOAR         | SOC Automation Lab|
 | Incident Response Planning and Execution      | SOC Automation Lab|
 | Case Management with TheHive                  | SOC Automation Lab|
@@ -41,4 +41,4 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 ## Projects
 - <a href="https://github.com/mstarLabs/VM-Network-Architecture">VM Network Architecture</a>
-- SOC Automation Project
+- <a href="https://github.com/mstarLabs/pfSense">pfSense</a>
