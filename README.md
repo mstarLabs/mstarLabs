@@ -18,6 +18,9 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Draw.io (Diagrams) and Network Layout         | <a href="https://github.com/mstarLabs/VM-Network-Architecture">VM Network Architecture</a>|
 | Network Segmentation & Firewall Policy Design | <a href="https://github.com/mstarLabs/pfSense">pfSense</a> |
 | Inter-VLAN Routing and DHCP Configuration     | <a href="https://github.com/mstarLabs/pfSense">pfSense</a> |
+| Active Directory Domain Services (ADDS) Deployment | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
+| Domain Join & DNS Troubleshooting | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
+| Windows Server Role Configuration (AD, DNS) | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
 
 ---
 
@@ -29,11 +32,16 @@ My journey in computer science has led me to develop a passion for cybersecurity
     <img src="https://img.shields.io/badge/-VirtualBox-183A61?&style=for-the-badge&logo=virtualbox&logoColor=white" />
 </div>
 
+Operating Systems
+<div>
+    <img src="https://img.shields.io/badge/-Windows%20Server%202019-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Windows%2010-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+</div>
+
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-pfSense-22314E?&style=for-the-badge&logo=pfSense&logoColor=white" />
 </div>
-
 
 ---
 
@@ -51,3 +59,4 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ## Projects
 - <a href="https://github.com/mstarLabs/VM-Network-Architecture">VM Network Architecture</a>
 - <a href="https://github.com/mstarLabs/pfSense">pfSense</a>
+- <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a>
