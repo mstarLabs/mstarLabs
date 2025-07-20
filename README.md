@@ -21,6 +21,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Active Directory Domain Services (ADDS) Deployment | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
 | Domain Join & DNS Troubleshooting | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
 | Windows Server Role Configuration (AD, DNS) | <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a> |
+| Group Policy Management & NIST 800-53 Alignment | <a href="https://github.com/mstarLabs/GPO-NIST80053-RBAC/tree/main">GPO-NIST80053-RBAC</a> |
 
 ---
 
@@ -60,3 +61,5 @@ My journey in computer science has led me to develop a passion for cybersecurity
 - <a href="https://github.com/mstarLabs/VM-Network-Architecture">VM Network Architecture</a>
 - <a href="https://github.com/mstarLabs/pfSense">pfSense</a>
 - <a href="https://github.com/mstarLabs/ADDS-Setup/tree/main">ADDS-Setup</a>
+- <a href="https://github.com/mstarLabs/GPO-NIST80053-RBAC/tree/main">GPO-NIST80053-RBAC</a>
+
