@@ -44,6 +44,11 @@ My journey in computer science has led me to develop a passion for cybersecurity
     <img src="https://img.shields.io/badge/-pfSense-22314E?&style=for-the-badge&logo=pfSense&logoColor=white" />
 </div>
 
+### Compliance & Governance
+<div>
+    <img src="https://img.shields.io/badge/-NIST%20800--53-00457C?style=for-the-badge" />
+</div>
+
 ---
 
 ## Certifications
