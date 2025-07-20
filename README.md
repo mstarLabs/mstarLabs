@@ -1,14 +1,10 @@
 # Hello, I'm Matt
 <a href="https://www.linkedin.com/in/matt-starega/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I’m a cybersecurity student and IT Support Analyst with experience in Active Directory, PowerShell scripting, and incident response. My journey began in IT support and evolved into junior sysadmin responsibilities, where I now focus on securing hybrid environments. I'm passionate about defending systems, building lab environments, and learning how policy, governance, and controls shape enterprise security.
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
-
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+To break into a Security Engineer role where I can leverage my hands-on sysadmin experience, build on my blue team skills, and develop automation for secure and efficient operations. While I’m gaining familiarity with frameworks like NIST 800-53 for foundational knowledge, my long-term goal is to advance toward a CISO role by focusing on security engineering, strategic defense, and continuous learning in cloud and automation.
 
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
@@ -26,7 +22,6 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ---
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Virtualization
 <div>
@@ -52,7 +47,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ---
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
+
 <div>
     <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
