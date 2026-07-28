@@ -52,6 +52,20 @@ Each repository builds upon the previous to simulate the deployment and operatio
 
 ---
 
+## Enterprise Lab Repositories
+
+### Enterprise Infrastructure
+
+- [Enterprise Network Architecture](https://github.com/mstarLabs/VM-Network-Architecture)
+- [Enterprise Firewall Platform](https://github.com/mstarLabs/pfSense)
+
+### Enterprise Identity
+
+- [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
+- [Group Policy, RBAC, and Security Controls](https://github.com/mstarLabs/GPO-NIST80053-RBAC)
+
+---
+
 ## Enterprise Identity Projects
 
 ### [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
