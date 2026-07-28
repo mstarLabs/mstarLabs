@@ -6,52 +6,49 @@
 
 ## About Me
 
-I am an IT and cybersecurity professional with experience supporting hybrid Active Directory and Microsoft Entra ID environments, Microsoft 365, identity lifecycle management, PowerShell automation, endpoint security, and incident response.
+I am an IT and cybersecurity professional specializing in enterprise identity, Microsoft technologies, and security engineering. My experience includes hybrid Active Directory and Microsoft Entra ID, Microsoft 365 administration, identity lifecycle management, PowerShell automation, endpoint security, and incident response.
 
-My background began in technical support and expanded into security analysis and junior systems administration responsibilities. Through that progression, I developed a strong interest in Identity and Access Management, Identity Security, least privilege, access governance, and the infrastructure that supports enterprise authentication and authorization.
+My background began in technical support and expanded into security analysis and junior systems administration responsibilities. Through that progression, I developed a strong interest in Identity and Access Management, Identity Security, least privilege, access governance, and the infrastructure supporting enterprise authentication and authorization.
 
-I hold a Bachelor of Science in Cybersecurity and Information Assurance, multiple industry certifications, and an active U.S. Secret Security Clearance.
-
-## Professional Focus
-
-I am developing toward Identity Security and Security Engineering roles with an emphasis on:
-
-- Identity lifecycle management and Joiner-Mover-Leaver processes
-- Active Directory and Microsoft Entra ID
-- Role-Based Access Control and least privilege
-- Identity Governance and Administration
-- Privileged Access Management
-- Authentication, authorization, and federation
-- Conditional Access and Zero Trust
-- PowerShell, Microsoft Graph, REST APIs, and identity automation
-- Hybrid identity and cloud security
-- Enterprise security architecture
-
-My long-term goal is to grow from Identity Security Engineering into Security Architecture and security leadership while maintaining deep technical expertise.
+I hold a Bachelor of Science in Cybersecurity and Information Assurance and multiple industry certifications.
 
 ---
 
 ## Enterprise Identity Security Lab
 
-This portfolio documents the development of an enterprise-style lab environment used to explore identity, infrastructure, security controls, network segmentation, and access management.
+This portfolio documents the development of an enterprise-style lab environment used to explore identity, infrastructure, security controls, network segmentation, authentication, authorization, and access management.
 
-The projects are designed as interconnected components rather than isolated technology demonstrations.
+The projects are designed as interconnected components of one evolving environment rather than isolated technology demonstrations.
 
-```text
-Virtualization and Network Architecture
-                  ↓
-         Firewall and Segmentation
-                  ↓
-        Active Directory and DNS
-                  ↓
-       Group Policy, RBAC, and Controls
-                  ↓
-        PKI and Certificate Services
-                  ↓
-            Hybrid Identity
-                  ↓
-  Identity Automation and Governance
-```
+<div align="center">
+
+<strong>Virtualization and Network Architecture</strong>
+
+&#8595;
+
+<strong>Firewall and Segmentation</strong>
+
+&#8595;
+
+<strong>Active Directory and DNS</strong>
+
+&#8595;
+
+<strong>Group Policy, RBAC, and Security Controls</strong>
+
+&#8595;
+
+<strong>PKI and Certificate Services</strong>
+
+&#8595;
+
+<strong>Hybrid Identity</strong>
+
+&#8595;
+
+<strong>Identity Automation and Governance</strong>
+
+</div>
 
 ---
 
@@ -75,7 +72,7 @@ Implementation of Group Policy and group-based access controls designed to demon
 
 ### [Virtual Network Architecture](https://github.com/mstarLabs/VM-Network-Architecture)
 
-Design of the segmented virtual network that supports the enterprise lab, including trust boundaries, infrastructure networks, client systems, and routed communication.
+Design of the segmented virtual network supporting the enterprise lab, including trust boundaries, infrastructure networks, client systems, IP addressing, and routed communication.
 
 **Key areas:** Network architecture, segmentation, virtualization, IP addressing, security zones, and architecture diagrams.
 
@@ -147,9 +144,26 @@ The firewall is maintained as a supporting infrastructure component and will evo
 
 ---
 
-## Current Lab Roadmap
+## Professional Focus
 
-The next stages of the enterprise identity lab will expand the existing environment through projects involving:
+I am continuing to develop toward Identity Security and Security Engineering roles with an emphasis on:
+
+- Identity lifecycle management and Joiner-Mover-Leaver processes
+- Active Directory and Microsoft Entra ID
+- Role-Based Access Control and least privilege
+- Identity Governance and Administration
+- Privileged Access Management
+- Authentication, authorization, and federation
+- Conditional Access and Zero Trust
+- PowerShell, Microsoft Graph, REST APIs, and identity automation
+- Hybrid identity and cloud security
+- Enterprise security architecture
+
+---
+
+## Enterprise Identity Lab Roadmap
+
+The next stages of the lab will expand the existing environment through projects involving:
 
 - Active Directory Certificate Services and enterprise PKI
 - Administrative tiering and privileged access controls
