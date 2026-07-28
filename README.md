@@ -8,7 +8,7 @@
 
 I am an IT and cybersecurity professional specializing in enterprise identity, Microsoft technologies, and security engineering. My experience includes hybrid Active Directory and Microsoft Entra ID, Microsoft 365 administration, identity lifecycle management, PowerShell automation, endpoint security, and incident response.
 
-My background began in technical support and expanded into security analysis and junior systems administration responsibilities. Through that progression, I developed a strong interest in Identity and Access Management, Identity Security, least privilege, access governance, and the infrastructure supporting enterprise authentication and authorization.
+Beginning in technical support and progressing into systems administration and security analysis, I developed a strong interest in Identity and Access Management, Identity Security, least privilege, access governance, and the enterprise infrastructure supporting authentication and authorization.
 
 I hold a Bachelor of Science in Cybersecurity and Information Assurance and multiple industry certifications.
 
@@ -18,7 +18,7 @@ I hold a Bachelor of Science in Cybersecurity and Information Assurance and mult
 
 This portfolio documents the development of an enterprise-style lab environment used to explore identity, infrastructure, security controls, network segmentation, authentication, authorization, and access management.
 
-The projects are designed as interconnected components of one evolving environment rather than isolated technology demonstrations.
+Each repository builds upon the previous to simulate the deployment and operation of an enterprise identity infrastructure rather than a collection of isolated technology demonstrations.
 
 <div align="center">
 
@@ -52,7 +52,7 @@ The projects are designed as interconnected components of one evolving environme
 
 ---
 
-## Featured Identity Projects
+## Enterprise Identity Projects
 
 ### [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
 
@@ -68,7 +68,7 @@ Implementation of Group Policy and group-based access controls designed to demon
 
 ---
 
-## Supporting Infrastructure Projects
+## Enterprise Infrastructure
 
 ### [Virtual Network Architecture](https://github.com/mstarLabs/VM-Network-Architecture)
 
@@ -76,11 +76,11 @@ Design of the segmented virtual network supporting the enterprise lab, including
 
 **Key areas:** Network architecture, segmentation, virtualization, IP addressing, security zones, and architecture diagrams.
 
-### [pfSense Firewall Platform](https://github.com/mstarLabs/pfSense)
+### [Enterprise Firewall Platform](https://github.com/mstarLabs/pfSense)
 
-Implementation of the firewall and routing platform supporting communication between segmented lab networks and identity services.
+Implementation of the enterprise firewall platform supporting secure communication between segmented networks and identity services.
 
-The firewall is maintained as a supporting infrastructure component and will evolve as new identity systems, cloud integrations, and security services are added.
+Built using **pfSense Community Edition**, the firewall provides routing, DHCP, and policy enforcement for the Enterprise Identity Security Lab. As additional services are deployed, firewall policy evolves to support secure communication while maintaining network segmentation and least privilege.
 
 **Key areas:** Firewall policy, routing, DHCP, network segmentation, service communication, and least-privilege network access.
 
