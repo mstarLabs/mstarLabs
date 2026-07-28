@@ -7,6 +7,7 @@ I’m a cybersecurity student and IT Support Analyst with experience in Active D
 To break into a Security Engineer role where I can leverage my hands-on sysadmin experience, build on my blue team skills, and develop automation for secure and efficient operations. While I’m gaining familiarity with frameworks like NIST 800-53 for foundational knowledge, my long-term goal is to advance toward a CISO role by focusing on security engineering, strategic defense, and continuous learning in cloud and automation.
 
 ## Skills
+Test
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
