@@ -254,7 +254,7 @@ Those technologies are documented within their own repositories.
 
 ---
 
-*# Group Policy, RBAC, and Security Controls
+# Group Policy, RBAC, and Security Controls
 
 ## Purpose
 
