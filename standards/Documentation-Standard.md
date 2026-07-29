@@ -101,12 +101,9 @@ Future repositories should follow the same enterprise naming convention.
 
 Examples include:
 
-- Enterprise Public Key Infrastructure
 - Hybrid Identity with Microsoft Entra ID
-- Identity Automation with Microsoft Graph
 - Privileged Access Management
 - Identity Governance and Administration
-- Keycloak Identity Federation
 
 ---
 
@@ -117,6 +114,8 @@ Each repository documents a specific layer of the Enterprise Identity Security L
 Although technologies interact throughout the environment, each repository has a clearly defined architectural responsibility.
 
 Documentation should remain focused on that responsibility while referencing related repositories when appropriate.
+
+Repository ownership and architectural boundaries are defined in the Repository Responsibilities document. This section provides only a high-level overview to support documentation consistency.
 
 ---
 
