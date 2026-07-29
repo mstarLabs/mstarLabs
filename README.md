@@ -89,8 +89,8 @@ Provides the foundational networking, segmentation, routing, and security archit
 
 Provides centralized authentication, authorization, directory services, identity administration, and enterprise security policy management.
 
-- [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
-- [Group Policy, RBAC, and Security Controls](https://github.com/mstarLabs/GPO-NIST80053-RBAC)
+- [Active Directory Domain Services](https://github.com/mstarLabs/Active-Directory-Domain-Services)
+- [Group Policy, RBAC, and Security Controls](https://github.com/mstarLabs/Group-Policy-RBAC-Security-Controls)
 
 ---
 
