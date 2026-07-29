@@ -94,8 +94,8 @@ Repository display names should remain consistent throughout the portfolio.
 | mstarLabs | Enterprise Identity Security Lab |
 | Enterprise-Network-Architecture | Enterprise Network Architecture |
 | Enterprise-Firewall-Platform | Enterprise Firewall Platform |
-| ADDS-Setup | Active Directory Domain Services |
-| GPO-NIST80053-RBAC | Group Policy, RBAC, and Security Controls |
+| Active-Directory-Domain-Services | Active Directory Domain Services |
+| Group-Policy-RBAC-Security-Controls | Group Policy, RBAC, and Security Controls |
 
 Future repositories should follow the same enterprise naming convention.
 
@@ -369,21 +369,35 @@ Additional sections may be included when appropriate, but the overall flow shoul
 2. Role Within the Enterprise Identity Security Lab
 3. Architecture
 4. Design Objectives
-5. Implementation
-6. Security Design
-7. Validation
-8. Skills Demonstrated
-9. Related Projects
-10. Future Enhancements
+5. Platform *(repository-specific when applicable)*
+6. Implementation
+7. Security Design
+8. Engineering *(repository-specific when applicable)*
+9. Validation
+10. Skills Demonstrated
+11. Related Projects
+12. Future Enhancements
 
-Repositories may include additional sections where appropriate, such as:
+The following sections may be adapted to the technology being documented while maintaining the overall repository structure.
+
+Platform examples include:
+
+- Identity Platform
+- Policy Platform
+- Network Platform
+
+Engineering examples include:
+
+- Firewall Policy Engineering
+- Identity Communication Engineering
+- Policy Engineering
+
+Additional implementation-specific sections may also be included when appropriate, including:
 
 - Platform Deployment
 - Network Segmentation
-- Firewall Policy
 - Identity Services
 - Design Decisions
-- Design Assumptions
 - Implementation Summary
 - Architecture Diagrams
 
@@ -413,34 +427,54 @@ Consistency improves readability and reinforces that each repository belongs to 
 
 # Documentation Style
 
-Repositories should explain technologies from an enterprise perspective.
+Repositories should explain technologies from an enterprise engineering perspective.
 
-Rather than documenting individual configuration tasks, explain:
+Documentation should answer the following questions:
 
-- Why the technology exists
-- Why the design was selected
-- How it supports enterprise identity
-- How it supports enterprise security
-- How it integrates into the overall architecture
+- Why does this technology exist?
+- Why was this design selected?
+- How does it integrate into the Enterprise Identity Security Lab?
+- How was it implemented?
+- How was it validated?
 
-Configuration screenshots should serve as supporting evidence rather than becoming the primary focus of the documentation.
+Documentation should emphasize architectural decisions, engineering practices, security principles, and validation rather than installation procedures or product-specific configuration steps.
+
+Configuration screenshots, exported reports, and implementation artifacts should serve as supporting evidence rather than the primary documentation.
 
 ---
 
-# Screenshots and Images
+# Screenshots and Evidence
 
-Screenshots should validate implementation rather than replace written documentation.
+Screenshots, exported reports, and configuration artifacts should reinforce the written documentation rather than replace it.
 
-Whenever screenshots are included:
+Evidence should always be introduced using descriptive captions.
 
-- Introduce the purpose before the image.
-- Explain what the reader should observe.
-- Reference the image using a descriptive title.
-- Avoid large groups of unexplained screenshots.
+Preferred evidence labels include:
+
+- **Architecture Evidence**
+- **Implementation Evidence**
+- **Configuration Evidence**
+- **Validation Evidence**
+
+Examples:
+
+> **Architecture Evidence:** Enterprise network topology
+
+> **Implementation Evidence:** Organizational Unit structure
+
+> **Configuration Evidence:** Group Policy Management Console
+
+> **Validation Evidence:** GPResult policy processing
+
+Avoid generic references such as:
+
+- Ref 1
+- Ref 2
+- Ref 3
 
 Architecture diagrams should appear near the beginning of a repository.
 
-Configuration screenshots should appear only after the relevant implementation discussion.
+Configuration and validation evidence should appear immediately after the relevant discussion.
 
 ---
 
@@ -462,19 +496,23 @@ Every architecture diagram should help explain how the documented technology fit
 
 # Skills Demonstrated
 
-The "Skills Demonstrated" section should summarize the enterprise concepts illustrated within the repository rather than simply listing software features.
+The Skills Demonstrated section summarizes enterprise engineering competencies illustrated throughout the repository.
 
-Whenever applicable, use the following categories.
+Skills should be organized into engineering categories rather than presented as a single list.
 
-## Enterprise Infrastructure
+Repository-specific engineering categories should be used whenever practical.
 
-Examples:
+Examples include:
 
-- Infrastructure planning
-- Windows Server administration
-- DNS
-- DHCP
-- Enterprise architecture
+- Enterprise Network Architecture
+- Enterprise Firewall Engineering
+- Enterprise Identity Engineering
+- Enterprise Policy Engineering
+- Authorization Engineering
+- Enterprise Security
+- Documentation
+
+Categories should reflect the architectural responsibilities of the repository rather than following a fixed list.
 
 ---
 
@@ -546,24 +584,21 @@ Only include categories that accurately reflect the documented work.
 
 # Related Projects
 
-Every repository should reinforce the progression of the Enterprise Identity Security Lab.
+The Related Projects section documents architectural relationships between repositories within the Enterprise Identity Security Lab.
 
-Related Projects should:
+Each repository should include:
 
-- Explain architectural relationships.
-- Describe how repositories build upon one another.
-- Avoid duplicate descriptions.
-- Reference both previous and future projects where appropriate.
+- An introductory paragraph describing its architectural role.
+- A table listing directly related repositories.
+- A closing paragraph describing how the repositories integrate.
 
-Descriptions should explain why another repository is relevant rather than simply listing its name.
+Related Projects should include:
 
-Example:
+- The Enterprise Identity Security Lab (mstarLabs)
+- Direct upstream architectural dependencies
+- Direct downstream architectural consumers once they have been modernized
 
-> Documents the enterprise network architecture that this firewall platform relies upon.
-
-This provides significantly more value than simply stating:
-
-> Network repository.
+Descriptions should explain architectural relationships rather than simply listing repository names.
 
 ---
 
@@ -639,64 +674,34 @@ Examples:
 
 # Validation Standards
 
-Validation demonstrates that an implementation functions as designed.
+Validation demonstrates that an implementation functions as designed and integrates correctly within the Enterprise Identity Security Lab.
 
-Every repository should include a validation section whenever practical.
+Every repository should include a Validation section whenever practical.
 
-Validation should focus on confirming enterprise functionality rather than simply stating that software was successfully installed.
+Validation sections should follow the structure below.
 
-Whenever possible, validation should answer the following questions:
+## Validation
 
-- Does the solution function as intended?
-- Does it support enterprise identity and security objectives?
-- Has communication been tested?
-- Have security controls been verified?
-- Has the implementation been documented?
+One introductory paragraph describing what was validated.
 
-Validation tables should follow a consistent format.
-
-Example:
+### Validation Results
 
 | Test | Expected Result | Status |
-|------|-----------------|--------|
-| Test Description | Successful | ✅ |
 
-Repositories should validate functionality appropriate to their scope.
+The **Expected Result** column should describe the engineering outcome being validated rather than generic values such as "Successful."
 
 Examples include:
 
-### Network Architecture
+- Client successfully joins the Active Directory domain.
+- Policies are linked to the correct Organizational Units.
+- Firewall policy supports successful Group Policy processing.
+- Users inherit authorization through assigned security groups.
 
-- DHCP
-- DNS
-- Routing
-- Network segmentation
-- Domain communication
-- Internet connectivity
+Validation should conclude with a paragraph explaining how successful validation confirms integration with the Enterprise Identity Security Lab.
 
-### Firewall Platform
+Supporting validation evidence such as screenshots, GPResult reports, exported configuration, CSV files, or implementation logs may be included immediately after the Validation Results table.
 
-- NAT
-- Firewall policy
-- Inter-VLAN routing
-- Least-privilege communication
-- Active Directory connectivity
-
-### Active Directory
-
-- Domain joins
-- Authentication
-- DNS resolution
-- Organizational Unit delegation
-- Group membership
-
-### Group Policy
-
-- Policy processing
-- Security baselines
-- RBAC
-- Least privilege
-- Administrative restrictions
+Validation evidence should directly correspond to one or more entries within the Validation Results table whenever practical.
 
 ---
 
@@ -834,6 +839,7 @@ When new repositories are added to the portfolio, they should adopt these standa
 
 | Version | Date | Summary |
 |----------|------|---------|
+| 2.0 | July 2026 | Expanded the documentation standard to formalize enterprise repository structure, evidence standards, validation methodology, related project relationships, and portfolio-wide consistency established during modernization of the first four Enterprise Identity Security Lab repositories. |
 | 1.0 | July 2026 | Initial documentation standard established for the Enterprise Identity Security Lab. |
 
 ---
