@@ -71,7 +71,7 @@ Privileged Access Management
 
 ↓
 
-Centralized Logging and SIEM
+Centralized Logging/Monitoring and SIEM
 ```
 
 Each repository should build upon the technologies introduced before it.
@@ -91,7 +91,7 @@ Each repository should build upon the technologies introduced before it.
 | Identity Automation | Identity lifecycle automation | Hybrid Identity |
 | Identity Governance and Administration | Access governance | Identity Automation |
 | Privileged Access Management | Administrative security | Identity Governance |
-| Centralized Logging and SIEM | Monitoring and detection | Entire Enterprise Environment |
+| Centralized Logging/Monitoring and SIEM | Monitoring and detection | Entire Enterprise Environment |
 
 ---
 
@@ -381,11 +381,11 @@ As the Enterprise Identity Security Lab expands, future repositories should main
 
 ---
 
-# Centralized Logging and SIEM
+# Centralized Logging/Monitoring and SIEM
 
 ## Primary Responsibilities
 
-- Centralized logging
+- Centralized logging and monitoring
 - Security Information and Event Management (SIEM)
 - Security monitoring
 - Event collection
