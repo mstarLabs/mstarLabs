@@ -81,7 +81,7 @@ The portfolio emphasizes architectural decision-making, identity-first design, s
 Provides the foundational networking, segmentation, routing, and security architecture supporting the Enterprise Identity Security Lab.
 
 - [Enterprise Network Architecture](https://github.com/mstarLabs/Enterprise-Network-Architecture)
-- [Enterprise Firewall Platform](https://github.com/mstarLabs/pfSense)
+- [Enterprise Firewall Platform](https://github.com/mstarLabs/Enterprise-Firewall-Platform)
 
 ---
 
