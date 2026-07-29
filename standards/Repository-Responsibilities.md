@@ -1,6 +1,6 @@
 # Enterprise Identity Security Lab Repository Responsibilities
 
-**Version:** 1.0  
+**Version:** 2.0  
 **Status:** Active  
 **Applies To:** All repositories within the Enterprise Identity Security Lab
 
