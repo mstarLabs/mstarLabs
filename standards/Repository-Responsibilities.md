@@ -30,6 +30,18 @@ Documentation should remain focused on the architectural purpose of the reposito
 
 ---
 
+# Repository Ownership
+
+Each repository owns a specific architectural responsibility within the Enterprise Identity Security Lab.
+
+Documentation should remain focused on that architectural responsibility throughout the repository.
+
+When implementation details belong primarily to another repository, provide only the architectural context necessary to explain the current design and reference the appropriate repository instead of duplicating documentation.
+
+Maintaining clear architectural ownership ensures the Enterprise Identity Security Lab remains scalable, maintainable, and consistent as additional identity, security, cloud, automation, and governance technologies are introduced.
+
+---
+
 # Enterprise Architecture Progression
 
 Repositories should represent the logical progression of an enterprise identity infrastructure.
@@ -80,18 +92,18 @@ Each repository should build upon the technologies introduced before it.
 
 # Repository Responsibility Matrix
 
-| Repository | Primary Responsibility | Depends On |
-|------------|------------------------|------------|
-| Enterprise Network Architecture | Network architecture and segmentation | None |
-| Enterprise Firewall Platform | Routing, firewall policy, DHCP, NAT | Enterprise Network Architecture |
-| Active Directory Domain Services | Enterprise identity infrastructure | Enterprise Firewall Platform |
-| Group Policy, RBAC, and Security Controls | Centralized policy and security configuration | Active Directory Domain Services |
-| Active Directory Certificate Services | Enterprise PKI and certificate services | Active Directory Domain Services |
-| Hybrid Identity with Microsoft Entra ID | Cloud identity integration | Active Directory Domain Services |
-| Identity Automation | Identity lifecycle automation | Hybrid Identity |
-| Identity Governance and Administration | Access governance | Identity Automation |
-| Privileged Access Management | Administrative security | Identity Governance |
-| Centralized Logging/Monitoring and SIEM | Monitoring and detection | Entire Enterprise Environment |
+| Repository | Primary Responsibility | Depends On | Provides Services To |
+|------------|------------------------|------------|----------------------|
+| Enterprise Network Architecture | Enterprise network architecture and segmentation | None | Enterprise Firewall Platform |
+| Enterprise Firewall Platform | Network security and communication enforcement | Enterprise Network Architecture | Active Directory Domain Services |
+| Active Directory Domain Services | Enterprise identity infrastructure | Enterprise Firewall Platform | Group Policy, RBAC, and Security Controls |
+| Group Policy, RBAC, and Security Controls | Enterprise policy management and authorization | Active Directory Domain Services | Future identity and security services |
+| Active Directory Certificate Services | Enterprise Public Key Infrastructure (PKI) | Active Directory Domain Services | Hybrid Identity with Microsoft Entra ID |
+| Hybrid Identity with Microsoft Entra ID | Hybrid identity integration | Active Directory Domain Services, Active Directory Certificate Services | Identity Automation |
+| Identity Automation | Identity lifecycle automation | Hybrid Identity with Microsoft Entra ID | Identity Governance and Administration |
+| Identity Governance and Administration | Enterprise identity governance | Identity Automation | Privileged Access Management |
+| Privileged Access Management | Administrative security | Identity Governance and Administration | Enterprise administration |
+| Centralized Logging/Monitoring and SIEM | Enterprise monitoring and detection | Entire Enterprise Identity Security Lab | Security operations |
 
 ---
 
@@ -206,9 +218,9 @@ Those topics belong in their respective repositories.
 
 ## Purpose
 
-The Active Directory Domain Services repository documents the enterprise identity infrastructure supporting authentication, authorization, centralized administration, and directory services throughout the Enterprise Identity Security Lab.
+The Active Directory Domain Services repository documents the enterprise identity layer responsible for authentication, authorization, directory services, and centralized identity administration throughout the Enterprise Identity Security Lab.
 
-This repository establishes the identity foundation upon which all future identity technologies are built.
+This repository establishes the enterprise identity foundation upon which centralized policy management, Public Key Infrastructure (PKI), hybrid identity, identity automation, and identity governance are built.
 
 ---
 
@@ -258,9 +270,9 @@ Those technologies are documented within their own repositories.
 
 ## Purpose
 
-The Group Policy, RBAC, and Security Controls repository documents the centralized management of enterprise security policies, administrative controls, and role-based access throughout the Enterprise Identity Security Lab.
+The Group Policy, RBAC, and Security Controls repository documents the enterprise policy management layer responsible for centralized security policy enforcement, role-based access control, and endpoint security configuration throughout the Enterprise Identity Security Lab.
 
-This repository demonstrates how organizations use Group Policy and Role-Based Access Control (RBAC) to standardize system configuration, enforce least privilege, and reduce operational risk.
+This repository demonstrates how organizations use centralized policy management and Role-Based Access Control (RBAC) to standardize system configuration, enforce least privilege, and support enterprise security governance.
 
 ---
 
@@ -306,7 +318,9 @@ Those technologies should be documented within their own repositories.
 
 # Future Repository Responsibilities
 
-As the Enterprise Identity Security Lab expands, future repositories should maintain the same architectural separation.
+Future repositories should follow the same architectural structure established by the current repositories, including Purpose, Primary Responsibilities, May Reference, and Does Not Document sections.
+
+As the Enterprise Identity Security Lab expands, repositories should continue maintaining the same architectural separation.
 
 ---
 
@@ -469,6 +483,7 @@ Future repositories should follow both standards before implementation begins.
 
 | Version | Date | Summary |
 |----------|------|---------|
+| 2.0 | July 2026 | Expanded repository governance by formalizing architectural ownership, repository dependencies, service relationships, and standardized responsibility definitions established during modernization of the first four Enterprise Identity Security Lab repositories. |
 | 1.0 | July 2026 | Initial repository responsibility standard established for the Enterprise Identity Security Lab. |
 
 ---
