@@ -1,8 +1,8 @@
 # Enterprise Identity Security Lab AI Repository Workflow
 
-**Version:** 1.0  
+**Version:** 2.0  
 **Status:** Active  
-**Applies To:** All GitHub repositories within the Enterprise Identity Security Laba
+**Applies To:** All GitHub repositories within the Enterprise Identity Security Lab
 
 ---
 
@@ -254,6 +254,16 @@ Examples include:
 - inconsistent architecture descriptions
 
 Do not rewrite documentation until the review has been completed.
+
+---
+
+## Step 7
+
+Determine whether the identified improvements represent repository-specific changes or portfolio-wide improvements.
+
+If the review identifies an improvement that would benefit multiple repositories, determine whether it should first become a governance standard before modernizing the current repository.
+
+Governance documents should evolve before repository implementations whenever a portfolio-wide improvement is identified.
 
 ---
 
@@ -618,12 +628,12 @@ The Enterprise Identity Security Lab is a living engineering portfolio.
 
 As new repositories, technologies, and enterprise capabilities are introduced, AI should recommend updates that improve consistency across the entire portfolio.
 
-When a better documentation approach is identified:
+When a better documentation or governance approach is identified:
 
-1. Determine whether it should become a portfolio standard.
-2. Recommend updating the Documentation Standard or Repository Responsibilities when appropriate.
-3. Apply the updated standard consistently to future repositories.
-4. Avoid creating isolated exceptions unless they are architecturally justified.
+1. Determine whether the improvement applies only to the current repository or to the Enterprise Identity Security Lab as a whole.
+2. If the improvement affects multiple repositories, update the appropriate governance document first.
+3. Apply the updated governance consistently across existing and future repositories.
+4. Avoid introducing repository-specific exceptions unless they are architecturally justified.
 
 Governance documents should evolve deliberately as the Enterprise Identity Security Lab matures.
 
@@ -641,10 +651,10 @@ Primary Profile Repository
 
 Core Repositories
 
-- https://github.com/mstarLabs/VM-Network-Architecture
-- https://github.com/mstarLabs/pfSense
-- https://github.com/mstarLabs/ADDS-Setup
-- https://github.com/mstarLabs/GPO-NIST80053-RBAC
+- https://github.com/mstarLabs/Enterprise-Network-Architecture
+- https://github.com/mstarLabs/Enterprise-Firewall-Platform
+- https://github.com/mstarLabs/Active-Directory-Domain-Services
+- https://github.com/mstarLabs/Group-Policy-RBAC-Security-Controls
 
 Governance Documents
 
@@ -671,13 +681,16 @@ Always review the latest version before making repository recommendations.
 
 When beginning a new repository engagement, AI should follow this sequence.
 
-1. Read the current repository README.
-2. Read the current Documentation Standard from its GitHub URL.
-3. Read the current Repository Responsibilities document from its GitHub URL.
-4. Read the current AI Repository Workflow from its GitHub URL.
+1. Review the current repository documentation.
+2. Review the latest Documentation Standard.
+3. Review the latest Repository Responsibilities.
+4. Review the latest AI Repository Workflow.
 5. Compare the repository against all governance documents.
-6. Recommend targeted improvements.
-7. Rewrite only after completing the review.
+6. Identify repository-specific improvements.
+7. Determine whether any improvements should first become portfolio standards.
+8. Recommend governance updates when appropriate.
+9. Modernize the repository documentation.
+10. Verify the completed repository against all governance documents.
 
 Every repository engagement should begin with understanding before modification and conclude with verification against the established governance framework.
 
@@ -697,6 +710,7 @@ The long-term objective is to produce documentation that reflects the standards 
 
 | Version | Date | Summary |
 |----------|------|---------|
+| 2.0 | July 2026 | Expanded the AI repository workflow to formalize governance-first documentation reviews, portfolio-wide standards updates, repository modernization, and verification practices established during modernization of the first four Enterprise Identity Security Lab repositories. |
 | 1.0 | July 2026 | Initial AI repository workflow established for the Enterprise Identity Security Lab. |
 
 ---
