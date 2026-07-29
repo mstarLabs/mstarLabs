@@ -1,12 +1,12 @@
 # Enterprise Identity Security Lab AI Repository Workflow
 
-**Version:** 2.0  
+**Version:** 3.1  
 **Status:** Active  
 **Applies To:** All GitHub repositories within the Enterprise Identity Security Lab
 
 ---
 
-# Purpose
+## Purpose
 
 This document defines the workflow that should be followed whenever AI assistance is used to review, update, or create documentation for the Enterprise Identity Security Lab.
 
@@ -18,7 +18,7 @@ The objective is to continuously improve the Enterprise Identity Security Lab wh
 
 ---
 
-# Executive Summary
+## Executive Summary
 
 The Enterprise Identity Security Lab is governed by three complementary documents.
 
@@ -32,7 +32,7 @@ AI should treat these documents as complementary rather than independent standar
 
 ---
 
-# Guiding Principle
+## Guiding Principle
 
 The Enterprise Identity Security Lab is a single enterprise environment.
 
@@ -44,7 +44,7 @@ Every recommendation, review, documentation update, and new repository should st
 
 ---
 
-# Authority
+## Authority
 
 The following documents govern all repository work.
 
@@ -52,7 +52,7 @@ These documents collectively serve as the authoritative governance framework for
 
 When reviewing or creating documentation, apply them in the following order.
 
-## First
+### First
 
 Documentation Standard
 
@@ -64,9 +64,7 @@ Defines:
 - README organization
 - Enterprise documentation philosophy
 
----
-
-## Second
+### Second
 
 Repository Responsibilities
 
@@ -78,9 +76,7 @@ Defines:
 - Technology ownership
 - Future repository responsibilities
 
----
-
-## Third
+### Third
 
 Current Repository Documentation
 
@@ -88,9 +84,7 @@ The repository currently being reviewed should be evaluated against both governa
 
 Existing documentation should be improved where necessary but should not introduce unnecessary architectural changes.
 
----
-
-## Fourth
+### Fourth
 
 Related Repositories
 
@@ -106,7 +100,7 @@ When conflicts exist between repositories, the governance documents take precede
 
 ---
 
-# Source Freshness
+## Source Freshness
 
 The Enterprise Identity Security Lab is an evolving portfolio.
 
@@ -123,7 +117,7 @@ Recommendations should always reflect the current state of the portfolio.
 
 ---
 
-# Conflict Resolution
+## Conflict Resolution
 
 If two repositories appear inconsistent or a recommendation conflicts with an existing governance document:
 
@@ -138,7 +132,7 @@ Repository-specific exceptions should remain rare and should always have a clear
 
 ---
 
-# Primary Objectives
+## Primary Objectives
 
 AI should prioritize the following objectives in order.
 
@@ -146,16 +140,17 @@ AI should prioritize the following objectives in order.
 2. Maintain documentation consistency.
 3. Prevent terminology drift.
 4. Prevent scope drift.
-5. Strengthen enterprise identity architecture.
-6. Improve technical communication.
-7. Improve documentation quality.
-8. Preserve continuity across the Enterprise Identity Security Lab.
+5. Preserve portfolio cohesion.
+6. Strengthen enterprise identity architecture.
+7. Improve technical communication.
+8. Improve documentation quality.
+9. Preserve continuity across the Enterprise Identity Security Lab.
 
 Improving a README should never compromise the consistency of the overall portfolio.
 
 ---
 
-# Enterprise Documentation Philosophy
+## Enterprise Documentation Philosophy
 
 Documentation should emphasize enterprise engineering rather than software installation.
 
@@ -172,7 +167,7 @@ Implementation steps should support these discussions rather than replace them.
 
 ---
 
-# Required Workflow
+## Required Workflow
 
 Every repository review should follow the same process.
 
@@ -180,23 +175,19 @@ AI should never begin rewriting documentation immediately.
 
 Instead, complete the following workflow.
 
-## Step 1
+### Step 1
 
 Determine the repository's official display name.
 
 Confirm that the repository name matches the Documentation Standard.
 
----
-
-## Step 2
+### Step 2
 
 Determine the repository's architectural responsibility.
 
 Confirm that the documented technology belongs within the repository according to the Repository Responsibilities document.
 
----
-
-## Step 3
+### Step 3
 
 Review the current documentation.
 
@@ -209,9 +200,7 @@ Identify:
 - duplicated content
 - opportunities for architectural improvement
 
----
-
-## Step 4
+### Step 4
 
 Compare the repository against the Documentation Standard.
 
@@ -226,9 +215,7 @@ Verify:
 - related projects
 - future enhancements
 
----
-
-## Step 5
+### Step 5
 
 Compare the repository against the Repository Responsibilities document.
 
@@ -239,9 +226,7 @@ Verify:
 - implementation boundaries
 - cross-repository references
 
----
-
-## Step 6
+### Step 6
 
 Identify documentation drift.
 
@@ -255,9 +240,7 @@ Examples include:
 
 Do not rewrite documentation until the review has been completed.
 
----
-
-## Step 7
+### Step 7
 
 Determine whether the identified improvements represent repository-specific changes or portfolio-wide improvements.
 
@@ -267,7 +250,7 @@ Governance documents should evolve before repository implementations whenever a 
 
 ---
 
-# Repository Ownership Rules
+## Repository Ownership Rules
 
 Before documenting any technology, determine which repository is responsible for that topic.
 
@@ -285,7 +268,88 @@ Repositories should complement one another rather than compete for ownership.
 
 ---
 
-# Repository Review Standards
+## Repository Update Workflow
+
+When updating an existing repository, AI should follow this sequence.
+
+### Phase 1 — Review
+
+Review the existing documentation without making changes.
+
+Identify:
+
+- documentation drift
+- terminology drift
+- architectural drift
+- scope drift
+- duplicated information
+- missing validation
+- inconsistent formatting
+
+### Phase 2 — Assessment
+
+Determine the overall maturity of the repository before recommending structural changes.
+
+Classify the repository as one of the following:
+
+- Early Development
+- Developing
+- Mature
+- Portfolio Standard
+
+The maturity assessment should consider:
+
+- Architectural alignment
+- Documentation quality
+- Repository scope
+- Validation quality
+- Cross-repository consistency
+- Enterprise narrative
+
+After determining repository maturity, identify whether the repository requires:
+
+- Minor improvements
+- Moderate restructuring
+- Complete modernization
+
+Repositories assessed as **Mature** or **Portfolio Standard** should receive targeted improvements rather than broad restructuring.
+
+Whenever possible, recommend focused improvements before proposing a complete rewrite.
+
+### Phase 3 — Modernization
+
+When rewriting documentation:
+
+- Preserve useful content.
+- Improve organization.
+- Strengthen architectural explanations.
+- Improve technical accuracy.
+- Preserve repository scope.
+- Maintain enterprise terminology.
+
+Avoid rewriting sections solely for stylistic preference.
+
+Every modification should improve clarity, consistency, or architectural quality.
+
+Documentation modernization should preserve technical credibility while improving clarity.
+
+When modernizing existing documentation:
+
+- Preserve implementation evidence.
+- Preserve validation artifacts.
+- Preserve architectural decisions.
+- Strengthen explanations.
+- Improve organization only when it increases clarity.
+
+Do not replace implementation evidence with descriptive text.
+
+Do not remove technical artifacts that demonstrate engineering work.
+
+The objective of modernization is to improve understanding without reducing the technical depth of the repository.
+
+---
+
+## Repository Review Standards
 
 Every repository review should evaluate the following areas.
 
@@ -300,7 +364,23 @@ Confirm that the repository:
 
 ---
 
-## Documentation
+## Portfolio Cohesion
+
+Repository reviews should evaluate not only the quality of the current repository but also its contribution to the Enterprise Identity Security Lab as a whole.
+
+Repositories should collectively read as the documentation for a single enterprise environment rather than a collection of unrelated technology demonstrations.
+
+During every review, determine whether the repository:
+
+- Reinforces the overall architectural progression.
+- Clearly identifies its dependencies on previous repositories.
+- Establishes the foundation for downstream repositories.
+- Uses terminology and writing style consistent with the rest of the portfolio.
+- Complements related repositories without duplicating their responsibilities.
+
+When recommending improvements, prioritize changes that improve the cohesion of the portfolio over changes that improve only the individual repository.
+
+### Documentation
 
 Confirm that the repository:
 
@@ -310,9 +390,7 @@ Confirm that the repository:
 - Maintains a consistent writing style.
 - Explains why before how.
 
----
-
-## Terminology
+### Terminology
 
 Verify that official terminology is used consistently.
 
@@ -331,9 +409,7 @@ Examples include:
 
 Do not introduce alternative terminology when an official term already exists.
 
----
-
-## Scope
+### Scope
 
 Confirm that the repository documents only technologies within its architectural responsibility.
 
@@ -343,9 +419,7 @@ If implementation belongs elsewhere:
 - Reference the responsible repository.
 - Avoid duplicate documentation.
 
----
-
-## Validation
+### Validation
 
 Confirm that validation demonstrates enterprise functionality rather than successful software installation.
 
@@ -358,9 +432,7 @@ Validation should verify:
 - Policy enforcement
 - Expected system behavior
 
----
-
-## Related Projects
+### Related Projects
 
 Verify that Related Projects:
 
@@ -369,9 +441,7 @@ Verify that Related Projects:
 - Reflect the current architecture progression.
 - Avoid duplicate descriptions.
 
----
-
-## Future Enhancements
+### Future Enhancements
 
 Confirm that Future Enhancements:
 
@@ -381,86 +451,29 @@ Confirm that Future Enhancements:
 
 ---
 
-# Repository Update Workflow
-
-When updating an existing repository, AI should follow this sequence.
-
-## Phase 1 — Review
-
-Review the existing documentation without making changes.
-
-Identify:
-
-- documentation drift
-- terminology drift
-- architectural drift
-- scope drift
-- duplicated information
-- missing validation
-- inconsistent formatting
-
----
-
-## Phase 2 — Assessment
-
-Determine whether the repository requires:
-
-- Minor improvements
-- Moderate restructuring
-- Complete modernization
-
-Whenever possible, recommend targeted improvements before proposing a complete rewrite.
-
----
-
-## Phase 3 — Modernization
-
-When rewriting documentation:
-
-- Preserve useful content.
-- Improve organization.
-- Strengthen architectural explanations.
-- Improve technical accuracy.
-- Preserve repository scope.
-- Maintain enterprise terminology.
-
-Avoid rewriting sections solely for stylistic preference.
-
-Every modification should improve clarity, consistency, or architectural quality.
-
----
-
-# New Repository Workflow
+## New Repository Workflow
 
 Before recommending a new repository, answer the following questions.
 
-## Question 1
+### Question 1
 
 What enterprise problem does this technology solve?
 
----
-
-## Question 2
+### Question 2
 
 Where does the technology fit within the Enterprise Identity Security Lab?
 
----
-
-## Question 3
+### Question 3
 
 Which existing repositories does it depend upon?
 
----
-
-## Question 4
+### Question 4
 
 Does another repository already own this responsibility?
 
 If yes, expand the existing repository instead of creating a new one unless there is a compelling architectural reason.
 
----
-
-## Question 5
+### Question 5
 
 Will the new repository strengthen the enterprise architecture?
 
@@ -474,7 +487,7 @@ New repositories should be created only when they introduce a distinct architect
 
 ---
 
-# Architecture Preservation
+## Architecture Preservation
 
 The Enterprise Identity Security Lab represents a deliberate enterprise architecture.
 
@@ -486,7 +499,7 @@ When improvements are recommended, they should strengthen the existing architect
 
 ---
 
-# Terminology Preservation
+## Terminology Preservation
 
 Official terminology defined within the Documentation Standard should remain consistent throughout every repository.
 
@@ -504,7 +517,7 @@ When in doubt, use the terminology defined within the Documentation Standard.
 
 ---
 
-# Enterprise Continuity
+## Enterprise Continuity
 
 Every repository should reinforce that it exists within a larger enterprise architecture.
 
@@ -520,7 +533,7 @@ Readers should naturally understand how one repository leads into the next as th
 
 ---
 
-# AI Behavior Expectations
+## AI Behavior Expectations
 
 When assisting with the Enterprise Identity Security Lab, AI should behave as a senior enterprise engineer reviewing professional engineering documentation.
 
@@ -534,7 +547,7 @@ The objective is to improve both the documentation and the author's understandin
 
 ---
 
-# Decision-Making Principles
+## Decision-Making Principles
 
 When multiple approaches are possible, AI should prioritize the option that best supports:
 
@@ -550,7 +563,7 @@ Recommendations should be evaluated from the perspective of enterprise engineeri
 
 ---
 
-# Recommendation Philosophy
+## Recommendation Philosophy
 
 AI should recommend improvements that provide measurable value.
 
@@ -567,9 +580,11 @@ Avoid recommending changes that only provide cosmetic or stylistic differences.
 
 Every recommendation should have a clear engineering justification.
 
+Recommendations should prioritize improvements that increase the long-term quality of the Enterprise Identity Security Lab over changes that affect only the appearance of an individual repository.
+
 ---
 
-# Enterprise Engineering Mindset
+## Enterprise Engineering Mindset
 
 The Enterprise Identity Security Lab is intended to represent a realistic enterprise environment.
 
@@ -590,7 +605,7 @@ Avoid presenting repositories as isolated technology demonstrations.
 
 ---
 
-# Teaching Philosophy
+## Teaching Philosophy
 
 Unless explicitly requested otherwise, AI should teach rather than simply produce documentation.
 
@@ -606,7 +621,29 @@ The goal is to improve both the portfolio and the author's engineering knowledge
 
 ---
 
-# Portfolio Growth Philosophy
+## Portfolio Entry Point
+
+The `mstarLabs` repository serves as the primary entry point to the Enterprise Identity Security Lab.
+
+As additional repositories are added or existing repositories mature, periodically review the landing page to ensure it accurately represents:
+
+- The current enterprise architecture
+- Repository progression
+- Overall portfolio maturity
+- Long-term roadmap
+- The purpose of the Enterprise Identity Security Lab
+
+The landing page should evolve alongside the Enterprise Identity Security Lab and present the portfolio as a cohesive enterprise environment rather than a simple index of repositories.
+
+The portfolio homepage should communicate the purpose, architecture, and progression of the Enterprise Identity Security Lab while guiding readers naturally through the individual repositories.
+
+Periodically compare the `mstarLabs` repository against the individual repository READMEs to ensure it accurately reflects the overall maturity and technical depth of the Enterprise Identity Security Lab.
+
+As repositories evolve, the landing page should continue to serve as an executive overview of the portfolio rather than a simple directory of projects.
+
+---
+
+## Portfolio Growth Philosophy
 
 The Enterprise Identity Security Lab should evolve as a cohesive enterprise environment.
 
@@ -622,7 +659,7 @@ Future repositories should naturally extend the existing architecture rather tha
 
 ---
 
-# Continuous Improvement
+## Continuous Improvement
 
 The Enterprise Identity Security Lab is a living engineering portfolio.
 
@@ -639,7 +676,7 @@ Governance documents should evolve deliberately as the Enterprise Identity Secur
 
 ---
 
-# GitHub Repository Context
+## GitHub Repository Context
 
 GitHub Organization / Account
 
@@ -677,7 +714,7 @@ Always review the latest version before making repository recommendations.
 
 ---
 
-# Revision Workflow
+## Revision Workflow
 
 When beginning a new repository engagement, AI should follow this sequence.
 
@@ -696,7 +733,7 @@ Every repository engagement should begin with understanding before modification 
 
 ---
 
-# Engineering Philosophy
+## Engineering Philosophy
 
 The Enterprise Identity Security Lab is intended to demonstrate the progression of enterprise identity and security engineering rather than the accumulation of individual technologies.
 
@@ -706,16 +743,18 @@ The long-term objective is to produce documentation that reflects the standards 
 
 ---
 
-# Revision History
+## Revision History
 
 | Version | Date | Summary |
 |----------|------|---------|
+| 3.1 | July 2026 | Reorganized the workflow into a more logical engineering methodology, improved section grouping, expanded Portfolio Entry Point governance, and refined the document structure for long-term maintainability. |
+| 3.0 | July 2026 | Expanded the AI repository workflow to formalize governance-first documentation reviews, portfolio-wide standards updates, repository modernization, repository maturity assessment, portfolio entry point governance, and verification practices established during modernization of the first four Enterprise Identity Security Lab repositories. |
 | 2.0 | July 2026 | Expanded the AI repository workflow to formalize governance-first documentation reviews, portfolio-wide standards updates, repository modernization, and verification practices established during modernization of the first four Enterprise Identity Security Lab repositories. |
 | 1.0 | July 2026 | Initial AI repository workflow established for the Enterprise Identity Security Lab. |
 
 ---
 
-# Final Statement
+## Final Statement
 
 This document establishes the standard workflow for AI-assisted development of the Enterprise Identity Security Lab.
 
