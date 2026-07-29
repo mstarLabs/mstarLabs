@@ -93,7 +93,7 @@ Repository display names should remain consistent throughout the portfolio.
 |-------------------|-----------------------|
 | mstarLabs | Enterprise Identity Security Lab |
 | Enterprise-Network-Architecture | Enterprise Network Architecture |
-| pfSense | Enterprise Firewall Platform |
+| Enterprise-Firewall-Platform | Enterprise Firewall Platform |
 | ADDS-Setup | Active Directory Domain Services |
 | GPO-NIST80053-RBAC | Group Policy, RBAC, and Security Controls |
 
