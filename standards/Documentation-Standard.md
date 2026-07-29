@@ -92,7 +92,7 @@ Repository display names should remain consistent throughout the portfolio.
 | GitHub Repository | Official Display Name |
 |-------------------|-----------------------|
 | mstarLabs | Enterprise Identity Security Lab |
-| VM-Network-Architecture | Enterprise Network Architecture |
+| Enterprise-Network-Architecture | Enterprise Network Architecture |
 | pfSense | Enterprise Firewall Platform |
 | ADDS-Setup | Active Directory Domain Services |
 | GPO-NIST80053-RBAC | Group Policy, RBAC, and Security Controls |
