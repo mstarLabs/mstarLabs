@@ -6,31 +6,37 @@
 
 ## About Me
 
-I am an IT and cybersecurity professional specializing in enterprise identity, Microsoft technologies, and security engineering. My experience includes hybrid Active Directory and Microsoft Entra ID, Microsoft 365 administration, identity lifecycle management, PowerShell automation, endpoint security, and incident response.
+I am a cybersecurity professional specializing in Identity and Access Management (IAM), Identity Security, and enterprise security engineering. My experience spans hybrid Active Directory, Microsoft Entra ID, identity lifecycle management, access governance, authentication, federation, and PowerShell automation across enterprise environments.
 
-Beginning in technical support and progressing into systems administration and security analysis, I developed a strong interest in Identity and Access Management, Identity Security, least privilege, access governance, and the enterprise infrastructure supporting authentication and authorization.
+Beginning in technical support and progressing into systems administration and security analysis, I developed a strong interest in designing and securing enterprise identity platforms. My work has focused on implementing least privilege, strengthening authentication, automating identity processes, and supporting secure hybrid identity environments.
 
-I hold a Bachelor of Science in Cybersecurity and Information Assurance and multiple industry certifications.
+I hold a Bachelor of Science in Cybersecurity and Information Assurance along with multiple industry certifications, and I continue to expand my expertise in identity governance, privileged access management, enterprise architecture, and cloud identity technologies.
 
 ---
 
 ## Enterprise Identity Security Lab
 
-This portfolio documents the development of an enterprise-style lab environment used to explore identity, infrastructure, security controls, network segmentation, authentication, authorization, and access management.
+This portfolio documents the design, implementation, and continuous evolution of the Enterprise Identity Security Lab.
 
-Each repository builds upon the previous to simulate the deployment and operation of an enterprise identity infrastructure rather than a collection of isolated technology demonstrations.
+Rather than a collection of isolated technology demonstrations, the Enterprise Identity Security Lab is designed as a cohesive enterprise environment. Each repository documents a specific architectural layer and builds upon previously established infrastructure to demonstrate enterprise identity, security, networking, governance, and automation.
+
+The portfolio emphasizes architectural decision-making, identity-first design, security engineering, and enterprise documentation practices commonly used in production environments.
 
 <div align="center">
 
-<strong>Virtualization and Network Architecture</strong>
+### Enterprise Infrastructure
+
+<strong>Enterprise Network Architecture</strong>
 
 &#8595;
 
-<strong>Firewall and Segmentation</strong>
+<strong>Enterprise Firewall Platform</strong>
 
-&#8595;
+<br>
 
-<strong>Active Directory and DNS</strong>
+### Enterprise Identity
+
+<strong>Active Directory Domain Services</strong>
 
 &#8595;
 
@@ -38,67 +44,73 @@ Each repository builds upon the previous to simulate the deployment and operatio
 
 &#8595;
 
-<strong>PKI and Certificate Services</strong>
+<strong>Active Directory Certificate Services</strong>
 
 &#8595;
 
-<strong>Hybrid Identity</strong>
+<strong>Hybrid Identity with Microsoft Entra ID</strong>
+
+<br>
+
+### Identity Security
+
+<strong>Identity Automation</strong>
 
 &#8595;
 
-<strong>Identity Automation and Governance</strong>
+<strong>Identity Governance and Administration</strong>
+
+&#8595;
+
+<strong>Privileged Access Management</strong>
+
+<br>
+
+### Security Operations
+
+<strong>Centralized Logging/Monitoring and SIEM</strong>
 
 </div>
 
 ---
 
-## Enterprise Lab Repositories
+## Enterprise Identity Security Lab Repositories
 
 ### Enterprise Infrastructure
+
+Provides the foundational networking, segmentation, routing, and security architecture supporting the Enterprise Identity Security Lab.
 
 - [Enterprise Network Architecture](https://github.com/mstarLabs/VM-Network-Architecture)
 - [Enterprise Firewall Platform](https://github.com/mstarLabs/pfSense)
 
+---
+
 ### Enterprise Identity
+
+Provides centralized authentication, authorization, directory services, identity administration, and enterprise security policy management.
 
 - [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
 - [Group Policy, RBAC, and Security Controls](https://github.com/mstarLabs/GPO-NIST80053-RBAC)
 
 ---
 
-## Enterprise Identity Projects
+### Identity Security *(Planned)*
 
-### [Active Directory Domain Services](https://github.com/mstarLabs/ADDS-Setup)
+Expands the enterprise identity platform through certificate services, hybrid identity, identity automation, governance, and privileged access management.
 
-Deployment of an enterprise-style Active Directory environment providing centralized identity, authentication, DNS, organizational structure, and domain services.
-
-**Key areas:** Active Directory Domain Services, Windows Server, DNS, domain administration, identity infrastructure, and troubleshooting.
-
-### [Group Policy, RBAC, and Security Controls](https://github.com/mstarLabs/GPO-NIST80053-RBAC)
-
-Implementation of Group Policy and group-based access controls designed to demonstrate centralized security configuration, least privilege, role-based authorization, and alignment with enterprise security requirements.
-
-**Key areas:** Group Policy, RBAC, least privilege, administrative controls, security baselines, validation, and NIST SP 800-53 concepts.
+- Active Directory Certificate Services
+- Hybrid Identity with Microsoft Entra ID
+- Identity Automation
+- Identity Governance and Administration
+- Privileged Access Management
 
 ---
 
-## Enterprise Infrastructure
+### Security Operations *(Planned)*
 
-### [Virtual Network Architecture](https://github.com/mstarLabs/VM-Network-Architecture)
+Extends the lab with enterprise monitoring, centralized logging, security visibility, and detection capabilities.
 
-Design of the segmented virtual network supporting the enterprise lab, including trust boundaries, infrastructure networks, client systems, IP addressing, and routed communication.
-
-**Key areas:** Network architecture, segmentation, virtualization, IP addressing, security zones, and architecture diagrams.
-
-### [Enterprise Firewall Platform](https://github.com/mstarLabs/pfSense)
-
-Implementation of the enterprise firewall platform supporting secure communication between segmented networks and identity services.
-
-Built using **pfSense Community Edition**, the firewall provides routing, DHCP, and policy enforcement for the Enterprise Identity Security Lab. As additional services are deployed, firewall policy evolves to support secure communication while maintaining network segmentation and least privilege.
-
-**Key areas:** Firewall policy, routing, DHCP, network segmentation, service communication, and least-privilege network access.
-
----
+- Centralized Logging/Monitoring and SIEM
 
 ## Technologies
 
@@ -158,34 +170,49 @@ Built using **pfSense Community Edition**, the firewall provides routing, DHCP, 
 
 ---
 
+## Repository Governance
+
+The Enterprise Identity Security Lab is governed by a standardized documentation framework to ensure consistency, architectural integrity, and clear repository ownership across the portfolio.
+
+The governance framework consists of three complementary standards:
+
+- [Documentation Standard](standards/Documentation-Standard.md) — Defines how repositories are written.
+- [Repository Responsibilities](standards/Repository-Responsibilities.md) — Defines the architectural responsibility of each repository.
+- [AI Repository Workflow](standards/AI-Repository-Workflow.md) — Defines the review and modernization process for repository documentation.
+
+These standards define how repositories are documented, what each repository owns, and how documentation is reviewed and maintained as the portfolio evolves.
+
+---
+
 ## Professional Focus
 
 I am continuing to develop toward Identity Security and Security Engineering roles with an emphasis on:
 
-- Identity lifecycle management and Joiner-Mover-Leaver processes
-- Active Directory and Microsoft Entra ID
-- Role-Based Access Control and least privilege
-- Identity Governance and Administration
-- Privileged Access Management
+- Enterprise identity architecture
+- Identity lifecycle management
 - Authentication, authorization, and federation
-- Conditional Access and Zero Trust
-- PowerShell, Microsoft Graph, REST APIs, and identity automation
-- Hybrid identity and cloud security
+- Identity Governance and Administration (IGA)
+- Privileged Access Management (PAM)
+- Identity automation using PowerShell and Microsoft Graph
+- Zero Trust and least privilege
 - Enterprise security architecture
 
 ---
 
-## Enterprise Identity Lab Roadmap
+## Enterprise Identity Security Lab Roadmap
 
-The next stages of the lab will expand the existing environment through projects involving:
+The Enterprise Identity Security Lab will continue evolving by expanding enterprise identity capabilities, security controls, and operational visibility across the environment.
 
-- Active Directory Certificate Services and enterprise PKI
-- Administrative tiering and privileged access controls
-- Joiner-Mover-Leaver automation
-- Microsoft Entra ID and hybrid identity
-- Conditional Access
-- Microsoft Graph and PowerShell automation
-- Federation using SAML and OpenID Connect
-- Identity Governance and Administration
-- Access reviews and role engineering
-- Identity-focused monitoring and attack detection
+Future development includes:
+
+- Enterprise Public Key Infrastructure (PKI) with Active Directory Certificate Services
+- Hybrid identity integration with Microsoft Entra ID
+- Automated identity lifecycle management using PowerShell and Microsoft Graph
+- Identity Governance and Administration (IGA)
+- Privileged Access Management (PAM)
+- Centralized logging, monitoring, and security event analysis
+- Expanded Zero Trust security controls
+- Enterprise architecture documentation and operational runbooks
+
+Each new repository will extend the existing enterprise environment while following the Documentation Standard, Repository Responsibilities, and AI Repository Workflow that govern the Enterprise Identity Security Lab.
+
